@@ -1,0 +1,9 @@
+mxnet
+gluonnlp==0.8.0
+sentencepiece
+tqdm
+pandas
+numpy==1.23.1
+transformers==4.28.1
+kobert-tokenizer==0.1
+git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf
