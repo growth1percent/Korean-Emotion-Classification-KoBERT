@@ -118,8 +118,6 @@ Emotion Prediction
 
 ## 📁 프로젝트 구조
 
-## 📁 프로젝트 주요 구조
-
 ```text
 .
 ├── dataset/
