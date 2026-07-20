@@ -14,7 +14,7 @@
 | **개발 인원** | 3명 |
 | **프로젝트 목적** | AI 기반 감정 분석 일기 애플리케이션에 적용하기 위한 한국어 감정 다중 분류 모델 개발 |
 | **담당 역할** | 데이터 수집 및 전처리, 데이터셋 선정, KoBERT Fine-Tuning, 모델 학습 및 성능 평가 전 과정 수행 |
-| **개발 환경** | Google Colab |
+| **개발 환경** | Python 3.14.0, Google Colab, PyCharm |
 | **사용 기술** | Python, PyTorch, KoBERT, HuggingFace Transformers |
 
 ---
