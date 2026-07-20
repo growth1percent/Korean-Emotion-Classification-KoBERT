@@ -243,6 +243,8 @@ git clone https://github.com/growth1percent/Korean-Emotion-Classification-KoBERT
 cd Korean-Emotion-Classification-KoBERT
 ```
 
+💡 주의: git clone 마지막 단계(Resolving deltas 100%)에서 잠시 멈춘 것처럼 보일 수 있습니다. Git LFS를 통해 대용량 모델 가중치 파일(.pt)을 백그라운드에서 다운로드하는 중이므로, 터미널 창이 넘어갈 때까지 잠시만 기다려 주세요.
+
 ### 2. 가상환경 생성 및 활성화 (선택사항)
 
 **Windows**
