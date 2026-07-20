@@ -265,7 +265,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. 모델 추론 실행
+### 4. 모델 추론
 
 ```bash
 python predict.py
