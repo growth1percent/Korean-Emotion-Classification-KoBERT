@@ -118,11 +118,22 @@ Emotion Prediction
 
 ## 📁 프로젝트 구조
 
+## 📁 프로젝트 주요 구조
+
 ```text
 .
-├── KoBERT_Finetuning.ipynb
-├── README.md
-└── requirements.txt
+├── dataset/
+│   ├── 감성대화말뭉치Training.xlsx       # AIHub 감성대화말뭉치 학습 데이터
+│   ├── 감성대화말뭉치Validation.xlsx     # AIHub 감성대화말뭉치 검증 데이터
+│   └── 대화음성데이터셋.csv              # 대화 및 음성 관련 텍스트 데이터셋
+├── notebooks/
+│   ├── KoBERT_FineTuning 모델 학습.ipynb  # 구글 코랩 기반 KoBERT Fine-tuning 코드
+│   └── KoBERT_FineTuning 모델 추론.ipynb  # 학습 완료된 모델 테스트 및 추론 코드
+├── weights/                              # 학습 완료된 모델 가중치 (.pt) (Git LFS 관리)
+├── train.py                              # 로컬 환경 모델 학습 파이프라인
+├── predict.py                            # 단일 문장 텍스트 분류 및 예측 스크립트
+├── requirements.txt                      # 파이썬 의존성 패키지 목록
+└── README.md                             # 프로젝트 가이드
 ```
 
 ---
